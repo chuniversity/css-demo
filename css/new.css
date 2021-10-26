@@ -1,0 +1,71 @@
+
+@media (min-width: 1000px) {
+  .hero-unit-moon-exploration {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    width: 100vw;
+    height: 800px;
+  }
+  .hero-space-cont {
+    background-image: url(/images/final-frontier_large.jpg);
+  }
+  .hero-luna-cont {
+    background-image: url(/images/luna_large.jpg);
+  }
+}
+@media (max-width: 999px) {
+  .hero-unit-moon-exploration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 1200px;
+  }
+  .hero-space-cont {
+    background-image: url(/images/final-frontier_medium.jpg);
+  }
+  .hero-luna-cont {
+    background-image: url(/images/luna_medium.jpg);
+  }
+}
+
+
+.hero-space-cont {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-luna-cont {
+  height: 100%;
+  width: 100%;
+	background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-space {
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.hero-copy-space {
+  text-align: center;
+}
+.hero-copy-luna {
+  text-align: center;
+}
+
+.hero-copy-space a {
+  color: inherit; 
+  text-decoration: inherit;
+}
