@@ -1,3 +1,4 @@
+/* Begin Hero */
 
 @media (min-width: 1000px) {
   .hero-unit-moon-exploration {
@@ -68,4 +69,71 @@
 .hero-copy-space a {
   color: inherit; 
   text-decoration: inherit;
+}
+
+
+/* Timeline flex*/
+@media (min-width: 1200px) {
+  .timeline-cont-cont{
+    height: 2800px;
+  }
+  .timeline-cont {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    max-height: 100%;
+    width: 2400px;
+    overflow: auto;
+    align-content: flex-start;
+
+  }
+  .timeline-item {
+    width: 540px;
+    margin: 15px 15px 15px 15px;
+    padding: 5%; 
+  }
+  .timeline-1 {
+    order: 1;
+  }
+  .timeline-2 {
+    order: 4;
+  }
+  .timeline-3 {
+    order: 2;
+  }
+  .timeline-4 {
+    order: 5;
+  }
+  .timeline-5 {
+    order: 3;
+  }
+  .timeline-6 {
+    order: 6;
+  } 
+}
+
+@media (max-width: 1199px) {
+  .timeline-item {
+    width: 540px;
+  }
+  .timeline-cont-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .timeline-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .timeline-item {
+    width: 440px;
+  }
+}
+@media (max-width: 500px) {
+  .timeline-item {
+    width: 340px;
+  }
 }
