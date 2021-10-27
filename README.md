@@ -6,6 +6,6 @@ Various challenges solved using CSS.
 
 ## Demo
 
-<img src="https://github.com/chuniversity/coinbasewidgets/blob/master/coinbasewidgetsgif.gif" width="600" />
+<img src="https://github.com/chuniversity/css-demo/blob/master/cssdemo.gif" />
 
 
